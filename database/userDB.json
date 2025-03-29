@@ -1,0 +1,52 @@
+[
+  {
+    "firstname": "first user",
+    "lastname": "last user",
+    "username": "main user name",
+    "email": "abdullashi@gmail.com",
+    "role": "admin",
+    "password": "securepassword123"
+  },
+  {
+    "id": 2,
+    "firstname": "Abdullahi",
+    "lastname": "H Mu'az",
+    "username": "Maisaje",
+    "email": "abdullahikhalilmuaz@gmail.com",
+    "role": "user",
+    "password": "pass",
+    "createdAt": "2025-03-28T15:26:17.629Z",
+    "updatedAt": "2025-03-29T13:45:50.798Z"
+  },
+  {
+    "id": 3,
+    "firstname": "Sung",
+    "lastname": "Jinwoo",
+    "username": "Jinwoo",
+    "email": "jinwoo@gmail.com",
+    "role": "user",
+    "password": "jinwoo",
+    "createdAt": "2025-03-28T20:10:48.589Z"
+  },
+  {
+    "id": 4,
+    "firstname": "Abdullahi",
+    "lastname": "H Mu'az",
+    "username": "Maisaje",
+    "email": "abdullahi@gmail.com",
+    "role": "user",
+    "password": "code",
+    "createdAt": "2025-03-29T03:22:47.717Z"
+  },
+  {
+    "id": 5,
+    "firstname": "Muhammad",
+    "lastname": "Halilu",
+    "username": "Mboss",
+    "email": "mboss@email.com",
+    "role": "user",
+    "password": "mboss",
+    "createdAt": "2025-03-29T13:44:38.777Z",
+    "updatedAt": "2025-03-29T13:46:03.518Z"
+  }
+]

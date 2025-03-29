@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "firstname": "first user",
+    "lastname": "last user",
+    "username": "main user name",
+    "email": "abdullashi@gmail.com",
+    "role": "admin",
+    "password": "securepassword123",
+    "createdAt": "2025-03-28T15:24:56.711Z"
+  },
+  {
+    "id": 2,
+    "firstname": "Admin",
+    "lastname": "Panel",
+    "username": "Admin",
+    "email": "admin@library.com",
+    "role": "admin",
+    "password": "pass",
+    "createdAt": "2025-03-28T19:47:57.832Z"
+  }
+]

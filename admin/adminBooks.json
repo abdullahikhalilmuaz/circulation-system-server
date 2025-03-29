@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "isbn": "9780743273565",
+    "issn": "1234-5678",
+    "dateAdded": "2023-05-20",
+    "quantity": 9,
+    "section": "circulation",
+    "description": "Classic novel about the American Dream",
+    "createdAt": "2025-03-29T01:41:29.350Z",
+    "updatedAt": "2025-03-29T02:54:46.983Z"
+  },
+  {
+    "id": 1,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "isbn": "9780743273565",
+    "issn": "1234-5678",
+    "dateAdded": "2023-05-20",
+    "quantity": 10,
+    "section": "circulation",
+    "description": "Classic novel about the American Dream",
+    "createdAt": "2025-03-29T01:41:29.350Z",
+    "updatedAt": "2025-03-29T01:41:29.350Z"
+  },
+  {
+    "id": 2,
+    "title": "Chronicles of Nania",
+    "author": "Sakamato Days",
+    "isbn": "1232-13",
+    "issn": "2342",
+    "dateAdded": "2025-03-29",
+    "quantity": 99,
+    "section": "reference",
+    "description": "some random description",
+    "createdAt": "2025-03-29T01:42:07.099Z",
+    "updatedAt": "2025-03-29T02:12:00.834Z"
+  },
+  {
+    "id": 2,
+    "title": "Chronicles of Nania",
+    "author": "Sakamato Days",
+    "isbn": "1232-13",
+    "issn": "2342",
+    "dateAdded": "2025-03-29",
+    "quantity": 99,
+    "section": "reference",
+    "description": "some random description",
+    "createdAt": "2025-03-29T01:42:07.099Z",
+    "updatedAt": "2025-03-29T02:12:00.834Z"
+  }
+]

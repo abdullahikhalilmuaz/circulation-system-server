@@ -1,0 +1,40 @@
+[
+  {
+    "userId": 3,
+    "items": [],
+    "createdAt": "2025-03-29T03:09:57.363Z",
+    "updatedAt": "2025-03-29T14:48:40.939Z",
+    "status": "confirmed",
+    "registrationNumber": "NR/22/CSC/0009"
+  },
+  {
+    "userId": 4,
+    "items": [
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "section": "circulation"
+      },
+      {
+        "id": 2,
+        "title": "Chronicles of Nania",
+        "author": "Sakamato Days",
+        "isbn": "1232-13",
+        "section": "reference",
+        "quantity": 1
+      }
+    ],
+    "createdAt": "2025-03-29T03:23:16.998Z",
+    "updatedAt": "2025-03-29T03:23:41.255Z"
+  },
+  {
+    "userId": 5,
+    "items": [],
+    "status": "rejected",
+    "createdAt": "2025-03-29T13:58:27.335Z",
+    "updatedAt": "2025-03-29T15:41:49.367Z",
+    "registrationNumber": "NR/22/CSC/BIO/440490"
+  }
+]

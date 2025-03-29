@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "userId": 3,
+    "username": "Sung Jinwoo",
+    "userRole": "user",
+    "bookId": 2,
+    "bookTitle": "Chronicles of Nania",
+    "status": "pending",
+    "requestDate": "2025-03-29T02:12:00.865Z",
+    "processed": false
+  },
+  {
+    "id": 2,
+    "userId": 3,
+    "username": "Sung Jinwoo",
+    "userRole": "user",
+    "bookId": 1,
+    "bookTitle": "The Great Gatsby",
+    "status": "pending",
+    "requestDate": "2025-03-29T02:54:46.992Z",
+    "processed": false
+  },
+  {
+    "userId": 3,
+    "registrationNumber": "NR/21/CSC-BIO/440490",
+    "books": [
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "section": "circulation",
+        "quantity": 4
+      },
+      {
+        "id": 2,
+        "title": "Chronicles of Nania",
+        "author": "Sakamato Days",
+        "isbn": "1232-13",
+        "section": "reference",
+        "quantity": 1
+      }
+    ],
+    "status": "confirmed",
+    "checkoutDate": "2025-03-29T03:27:34.418Z",
+    "processedAt": "2025-03-29T14:31:18.922Z"
+  },
+  {
+    "userId": 5,
+    "registrationNumber": "NR/21/CSC-BIO/440490",
+    "books": [
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "section": "circulation"
+      }
+    ],
+    "status": "confirmed",
+    "checkoutDate": "2025-03-29T13:58:36.438Z",
+    "createdAt": "2025-03-29T13:58:36.438Z",
+    "processedAt": "2025-03-29T14:23:10.524Z"
+  },
+  {
+    "userId": 5,
+    "registrationNumber": "NR/22/CSC/0009",
+    "books": [
+      {
+        "id": 2,
+        "title": "Chronicles of Nania",
+        "author": "Sakamato Days",
+        "isbn": "1232-13",
+        "section": "reference",
+        "quantity": 1
+      }
+    ],
+    "status": "confirmed",
+    "checkoutDate": "2025-03-29T14:27:59.358Z",
+    "createdAt": "2025-03-29T14:27:59.358Z",
+    "processedAt": "2025-03-29T14:28:09.424Z"
+  },
+  {
+    "userId": 3,
+    "registrationNumber": "NR/22/CSC/0009",
+    "books": [
+      {
+        "id": 2,
+        "title": "Chronicles of Nania",
+        "author": "Sakamato Days",
+        "isbn": "1232-13",
+        "section": "reference",
+        "quantity": 1
+      }
+    ],
+    "status": "confirmed",
+    "checkoutDate": "2025-03-29T14:48:40.926Z",
+    "createdAt": "2025-03-29T14:48:40.926Z",
+    "processedAt": "2025-03-29T14:49:43.794Z"
+  },
+  {
+    "userId": 5,
+    "registrationNumber": "NR/22/CSC/BIO/440490",
+    "books": [
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "section": "circulation",
+        "quantity": 1
+      },
+      {
+        "id": 2,
+        "title": "Chronicles of Nania",
+        "author": "Sakamato Days",
+        "isbn": "1232-13",
+        "section": "reference",
+        "quantity": 1
+      }
+    ],
+    "status": "rejected",
+    "checkoutDate": "2025-03-29T15:17:16.160Z",
+    "createdAt": "2025-03-29T15:17:16.160Z",
+    "processedAt": "2025-03-29T15:17:52.917Z"
+  },
+  {
+    "userId": 5,
+    "registrationNumber": "NR/22/CSC/BIO/440490",
+    "books": [
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "section": "circulation",
+        "quantity": 1
+      }
+    ],
+    "status": "rejected",
+    "checkoutDate": "2025-03-29T15:41:49.360Z",
+    "createdAt": "2025-03-29T15:41:49.360Z",
+    "processedAt": "2025-03-29T15:41:59.834Z"
+  }
+]

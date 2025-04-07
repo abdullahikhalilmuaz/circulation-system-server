@@ -64,6 +64,28 @@ app.use("/api/users", userRoutes);
 app.use("/api/requests", requestsRoute);
 app.use("/api/notifications", notificationRoute);
 
+// GET ALL USER FOR DISPLAY ROUTE
+app.get("/api/allusers", (req, res) => {
+  fs.readFile("./database/userDB.json", "utf8", (err, data) => {
+    if (err) {
+      res.status(400).json({ message: "Failed to load data files!" });
+    } else {
+      res.status(200).json({ message: JSON.parse(data) });
+    }
+  });
+});
+
+// GET ALL BOOKS ROUTE
+app.get("/api/books/all", (req, res) => {
+  fs.readFile("./admin/adminBooks.json", "utf8", (err, data) => {
+    if (err) {
+      res.status(400).json({ message: "Failed to load book files!" });
+    } else {
+      res.status(200).json({ message: JSON.parse(data) });
+    }
+  });
+});
+
 // Health check
 app.get("/", (req, res) => {
   res.status(200).json({

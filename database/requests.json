@@ -1,29 +1,7 @@
 [
   {
-    "id": 1,
     "userId": 3,
-    "username": "Sung Jinwoo",
-    "userRole": "user",
-    "bookId": 2,
-    "bookTitle": "Chronicles of Nania",
-    "status": "pending",
-    "requestDate": "2025-03-29T02:12:00.865Z",
-    "processed": false
-  },
-  {
-    "id": 2,
-    "userId": 3,
-    "username": "Sung Jinwoo",
-    "userRole": "user",
-    "bookId": 1,
-    "bookTitle": "The Great Gatsby",
-    "status": "pending",
-    "requestDate": "2025-03-29T02:54:46.992Z",
-    "processed": false
-  },
-  {
-    "userId": 3,
-    "registrationNumber": "NR/21/CSC-BIO/440490",
+    "registrationNumber": "34567890",
     "books": [
       {
         "id": 1,
@@ -48,7 +26,7 @@
   },
   {
     "userId": 5,
-    "registrationNumber": "NR/21/CSC-BIO/440490",
+    "registrationNumber": "7654678",
     "books": [
       {
         "id": 1,
@@ -65,7 +43,7 @@
   },
   {
     "userId": 5,
-    "registrationNumber": "NR/22/CSC/0009",
+    "registrationNumber": "7654678",
     "books": [
       {
         "id": 2,
@@ -83,7 +61,7 @@
   },
   {
     "userId": 3,
-    "registrationNumber": "NR/22/CSC/0009",
+    "registrationNumber": "876890876",
     "books": [
       {
         "id": 2,
@@ -101,7 +79,7 @@
   },
   {
     "userId": 5,
-    "registrationNumber": "NR/22/CSC/BIO/440490",
+    "registrationNumber": "8976547",
     "books": [
       {
         "id": 1,
@@ -127,7 +105,7 @@
   },
   {
     "userId": 5,
-    "registrationNumber": "NR/22/CSC/BIO/440490",
+    "registrationNumber": "87655678",
     "books": [
       {
         "id": 1,
@@ -142,5 +120,56 @@
     "checkoutDate": "2025-03-29T15:41:49.360Z",
     "createdAt": "2025-03-29T15:41:49.360Z",
     "processedAt": "2025-03-29T15:41:59.834Z"
+  },
+  {
+    "userId": 6,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 2,
+        "title": "Chronicles of Nania",
+        "author": "Sakamato Days",
+        "isbn": "1232-13",
+        "section": "reference"
+      }
+    ],
+    "status": "confirmed",
+    "checkoutDate": "2025-04-13T14:23:42.262Z",
+    "createdAt": "2025-04-13T14:23:42.262Z",
+    "processedAt": "2025-04-15T10:41:05.074Z"
+  },
+  {
+    "userId": 3,
+    "registrationNumber": "NR/22/CSC/0009",
+    "books": [
+      {
+        "id": 3,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "9780061120084",
+        "section": "classics",
+        "quantity": 1
+      }
+    ],
+    "status": "pending",
+    "checkoutDate": "2025-04-15T07:36:46.014Z",
+    "createdAt": "2025-04-15T07:36:46.014Z"
+  },
+  {
+    "userId": 3,
+    "registrationNumber": "NR/22/CSC/0009",
+    "books": [
+      {
+        "id": 6,
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "isbn": "9780439023511",
+        "section": "dystopian",
+        "quantity": 1
+      }
+    ],
+    "status": "pending",
+    "checkoutDate": "2025-04-15T10:39:09.459Z",
+    "createdAt": "2025-04-15T10:39:09.460Z"
   }
 ]

@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "6",
+    "firstname": "Abdulrafiu",
+    "lastname": "Isah",
+    "username": "Abdulrafiu",
+    "registration_number": "440490",
+    "book_name": "Chronicles of Nania",
+    "collected": true,
+    "collection_date": "Tue Apr 15 2025 01:13:06 GMT+0100 (West Africa Standard Time)",
+    "returning_date": "Tue Apr 15 2025 01:13:14 GMT+0100 (West Africa Standard Time)",
+    "returned": true
+  },
+  {
+    "id": "1",
+    "firstname": "Muhammadu",
+    "lastname": "Isah",
+    "username": "Abdulrafiu",
+    "registration_number": "8764657",
+    "book_name": "NodeJS Crash Course",
+    "collected": false,
+    "collection_date": "Sun Apr 13 2025 15:21:57 GMT+0100 (West Africa Standard Time)",
+    "returning_date": "2025-04-20",
+    "returned": false
+  },
+  {
+    "id": "3",
+    "firstname": "Abdullahi",
+    "lastname": "Isah",
+    "username": "Abdulrafiu",
+    "registration_number": "987654",
+    "book_name": "Cracking the Coding Interview",
+    "collected": true,
+    "collection_date": "Tue Apr 15 2025 01:45:09 GMT+0100 (West Africa Standard Time)",
+    "returning_date": "Tue Apr 15 2025 01:45:14 GMT+0100 (West Africa Standard Time)",
+    "returned": true
+  },
+  {
+    "id": "6",
+    "firstname": "Abdulrafiu",
+    "lastname": "Isah",
+    "username": "Abdulrafiu",
+    "registration_number": "3245678",
+    "book_name": "Dragon Ball Z",
+    "collected": false,
+    "collection_date": "Sun Apr 13 2025 15:21:57 GMT+0100 (West Africa Standard Time)",
+    "returning_date": "2025-04-20",
+    "returned": false
+  }
+]

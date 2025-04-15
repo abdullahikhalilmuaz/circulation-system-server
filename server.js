@@ -19,6 +19,7 @@ const requestsRoute = require("./routes/requestsRoute");
 const notificationRoute = require("./routes/notificationRoute");
 const loanRoute = require("./routes/loanRoutes");
 const router = require("./routes/dashboardRoutes");
+const newBookRequest = require("./routes/makeBookRequest");
 
 // Ensure directories exist
 const dataDirs = ["admin", "database", "carts"].map((dir) =>
@@ -67,6 +68,7 @@ app.use("/api/requests", requestsRoute);
 app.use("/api/notifications", notificationRoute);
 app.use("/api", loanRoute);
 app.use("/api/dashboard", router);
+app.use("/api/newBookRequest", newBookRequest);
 
 // GET ALL USER FOR DISPLAY ROUTE
 app.get("/api/allusers", (req, res) => {
@@ -109,7 +111,6 @@ app.use((err, req, res, next) => {
   });
 });
 
-
 // GET TOP 3 POPULAR BOOKS
 app.get("/api/books/popular", (req, res) => {
   fs.readFile("./admin/adminBooks.json", "utf8", (err, data) => {
@@ -117,26 +118,25 @@ app.get("/api/books/popular", (req, res) => {
       res.status(400).json({ message: "Failed to load book files!" });
     } else {
       const books = JSON.parse(data);
-      
+
       // Sort by quantity (assuming higher quantity means more popular)
       const popularBooks = books
         .sort((a, b) => b.quantity - a.quantity)
         .slice(0, 3)
-        .map(book => ({
+        .map((book) => ({
           id: book.id,
           title: book.title,
           author: book.author,
-          checkouts: book.quantity // Using quantity as popularity indicator
+          checkouts: book.quantity, // Using quantity as popularity indicator
         }));
-      
+
       res.status(200).json(popularBooks);
     }
   });
 });
 
-
 app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+  console.log(`Server started on port ${port}`);
   console.log(`Admin books: ${path.join(__dirname, "admin/adminBooks.json")}`);
   console.log(`Carts data: ${path.join(__dirname, "carts/carts.json")}`);
 });

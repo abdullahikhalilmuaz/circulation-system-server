@@ -180,5 +180,18 @@
     "description": "some random book description goes down here 😂 😂 😂 ",
     "createdAt": "2025-04-15T00:40:10.302Z",
     "updatedAt": "2025-04-15T00:40:10.302Z"
+  },
+  {
+    "id": 15,
+    "title": "legendary of the greatest sayansa",
+    "author": "Sakamoto Days",
+    "isbn": "12543",
+    "issn": "90rfd",
+    "dateAdded": "2025-05-31",
+    "quantity": 30,
+    "section": "reference",
+    "description": "Lorem Ipsum Dolor",
+    "createdAt": "2025-05-11T16:53:13.392Z",
+    "updatedAt": "2025-05-11T16:53:13.392Z"
   }
 ]

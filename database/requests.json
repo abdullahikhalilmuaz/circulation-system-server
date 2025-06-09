@@ -151,9 +151,10 @@
         "quantity": 1
       }
     ],
-    "status": "pending",
+    "status": "confirmed",
     "checkoutDate": "2025-04-15T07:36:46.014Z",
-    "createdAt": "2025-04-15T07:36:46.014Z"
+    "createdAt": "2025-04-15T07:36:46.014Z",
+    "processedAt": "2025-05-11T16:47:30.130Z"
   },
   {
     "userId": 3,
@@ -168,8 +169,25 @@
         "quantity": 1
       }
     ],
-    "status": "pending",
+    "status": "rejected",
     "checkoutDate": "2025-04-15T10:39:09.459Z",
-    "createdAt": "2025-04-15T10:39:09.460Z"
+    "createdAt": "2025-04-15T10:39:09.460Z",
+    "processedAt": "2025-05-11T16:47:26.674Z"
+  },
+  {
+    "userId": 2,
+    "registrationNumber": "9-0546e",
+    "books": [
+      {
+        "id": 13,
+        "title": "The Grapes of Wrath",
+        "author": "John Steinbeck",
+        "isbn": "9780143039434",
+        "section": "classics"
+      }
+    ],
+    "status": "pending",
+    "checkoutDate": "2025-05-11T16:49:22.392Z",
+    "createdAt": "2025-05-11T16:49:22.392Z"
   }
 ]

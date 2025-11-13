@@ -186,8 +186,401 @@
         "section": "classics"
       }
     ],
-    "status": "pending",
+    "status": "rejected",
     "checkoutDate": "2025-05-11T16:49:22.392Z",
-    "createdAt": "2025-05-11T16:49:22.392Z"
+    "createdAt": "2025-05-11T16:49:22.392Z",
+    "processedAt": "2025-10-15T19:13:03.786Z"
+  },
+  {
+    "userId": 2,
+    "registrationNumber": "nr/21/csc/bio/440490",
+    "books": [
+      {
+        "id": 16,
+        "title": "name of the book",
+        "author": "abdullahi",
+        "isbn": "897578",
+        "section": "reserve",
+        "quantity": 1
+      }
+    ],
+    "status": "confirmed",
+    "checkoutDate": "2025-06-14T20:50:23.879Z",
+    "createdAt": "2025-06-14T20:50:23.880Z",
+    "processedAt": "2025-06-14T20:51:14.777Z"
+  },
+  {
+    "userId": 4,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "section": "circulation"
+      },
+      {
+        "id": 2,
+        "title": "Chronicles of Nania",
+        "author": "Sakamato Days",
+        "isbn": "1232-13",
+        "section": "reference",
+        "quantity": 2
+      }
+    ],
+    "status": "rejected",
+    "checkoutDate": "2025-07-27T18:32:22.915Z",
+    "createdAt": "2025-07-27T18:32:22.915Z",
+    "processedAt": "2025-07-27T18:34:49.279Z"
+  },
+  {
+    "userId": 7,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 2,
+        "title": "Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "isbn": "9780064471190",
+        "section": "fantasy"
+      }
+    ],
+    "status": "pending",
+    "checkoutDate": "2025-11-12T16:22:43.482Z",
+    "createdAt": "2025-11-12T16:22:43.482Z"
+  },
+  {
+    "userId": 7,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 2,
+        "title": "Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "isbn": "9780064471190",
+        "section": "fantasy"
+      }
+    ],
+    "status": "pending",
+    "checkoutDate": "2025-11-12T16:25:05.824Z",
+    "createdAt": "2025-11-12T16:25:05.824Z"
+  },
+  {
+    "userId": 7,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 18,
+        "title": "intellect",
+        "author": "Abdullahi H Mu'az",
+        "isbn": "235`",
+        "section": "circulation",
+        "quantity": 1
+      },
+      {
+        "id": 14,
+        "title": "Chronicles of Nania",
+        "author": "Sakamoto Days",
+        "isbn": "23456",
+        "section": "reserve",
+        "quantity": 1
+      }
+    ],
+    "status": "pending",
+    "checkoutDate": "2025-11-13T12:40:52.670Z",
+    "createdAt": "2025-11-13T12:40:52.670Z"
+  },
+  {
+    "userId": 7,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 2,
+        "title": "Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "isbn": "9780064471190",
+        "section": "fantasy",
+        "quantity": 1
+      }
+    ],
+    "status": "pending",
+    "checkoutDate": "2025-11-13T12:46:58.997Z",
+    "createdAt": "2025-11-13T12:46:58.997Z"
+  },
+  {
+    "id": "1763039085173",
+    "userId": 7,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 3,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "9780061120084",
+        "section": "classics",
+        "quantity": 1,
+        "status": "approved",
+        "adminNotes": "All books approved",
+        "processedAt": "2025-11-13T14:26:46.072Z"
+      }
+    ],
+    "status": "approved",
+    "checkoutDate": "2025-11-13T13:04:45.173Z",
+    "createdAt": "2025-11-13T13:04:45.173Z",
+    "updatedAt": "2025-11-13T14:26:46.073Z"
+  },
+  {
+    "id": "1763039220659",
+    "userId": 7,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 3,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "9780061120084",
+        "section": "classics",
+        "quantity": 1,
+        "status": "pending",
+        "adminNotes": ""
+      },
+      {
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "isbn": "9781853260509",
+        "section": "romance",
+        "quantity": 1,
+        "status": "pending",
+        "adminNotes": ""
+      }
+    ],
+    "status": "pending",
+    "checkoutDate": "2025-11-13T13:07:00.659Z",
+    "createdAt": "2025-11-13T13:07:00.659Z",
+    "updatedAt": "2025-11-13T13:07:00.659Z"
+  },
+  {
+    "id": "1763039746564",
+    "userId": 7,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 3,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "9780061120084",
+        "section": "classics",
+        "quantity": 1,
+        "status": "approved",
+        "adminNotes": "All books approved",
+        "processedAt": "2025-11-13T13:29:52.596Z"
+      },
+      {
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "isbn": "9781853260509",
+        "section": "romance",
+        "quantity": 1,
+        "status": "approved",
+        "adminNotes": "All books approved",
+        "processedAt": "2025-11-13T13:29:52.596Z"
+      },
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "section": "circulation",
+        "quantity": 1,
+        "status": "approved",
+        "adminNotes": "All books approved",
+        "processedAt": "2025-11-13T13:29:52.596Z"
+      }
+    ],
+    "status": "approved",
+    "checkoutDate": "2025-11-13T13:15:46.564Z",
+    "createdAt": "2025-11-13T13:15:46.564Z",
+    "updatedAt": "2025-11-13T13:29:52.596Z"
+  },
+  {
+    "id": "1763040698103",
+    "userId": 7,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 3,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "9780061120084",
+        "section": "classics",
+        "quantity": 1,
+        "status": "pending",
+        "adminNotes": ""
+      },
+      {
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "isbn": "9781853260509",
+        "section": "romance",
+        "quantity": 1,
+        "status": "pending",
+        "adminNotes": ""
+      },
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "section": "circulation",
+        "quantity": 1,
+        "status": "pending",
+        "adminNotes": ""
+      },
+      {
+        "id": 18,
+        "title": "intellect",
+        "author": "Abdullahi H Mu'az",
+        "isbn": "235`",
+        "section": "circulation",
+        "quantity": 1,
+        "status": "rejected",
+        "adminNotes": "",
+        "processedAt": "2025-11-13T13:59:59.614Z"
+      }
+    ],
+    "status": "partially_approved",
+    "checkoutDate": "2025-11-13T13:31:38.103Z",
+    "createdAt": "2025-11-13T13:31:38.103Z",
+    "updatedAt": "2025-11-13T13:59:59.615Z"
+  },
+  {
+    "id": "1763041412833",
+    "userId": 7,
+    "registrationNumber": "440490",
+    "books": [
+      {
+        "id": 3,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "9780061120084",
+        "section": "classics",
+        "quantity": 2,
+        "status": "pending",
+        "adminNotes": ""
+      },
+      {
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "isbn": "9781853260509",
+        "section": "romance",
+        "quantity": 1,
+        "status": "pending",
+        "adminNotes": ""
+      },
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "section": "circulation",
+        "quantity": 2,
+        "status": "pending",
+        "adminNotes": ""
+      },
+      {
+        "id": 18,
+        "title": "intellect",
+        "author": "Abdullahi H Mu'az",
+        "isbn": "235`",
+        "section": "circulation",
+        "quantity": 1,
+        "status": "approved",
+        "adminNotes": "",
+        "processedAt": "2025-11-13T13:58:21.696Z"
+      },
+      {
+        "id": 2,
+        "title": "Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "isbn": "9780064471190",
+        "section": "fantasy",
+        "quantity": 1,
+        "status": "pending",
+        "adminNotes": ""
+      }
+    ],
+    "status": "partially_approved",
+    "checkoutDate": "2025-11-13T13:43:32.833Z",
+    "createdAt": "2025-11-13T13:43:32.833Z",
+    "updatedAt": "2025-11-13T13:58:21.697Z"
+  },
+  {
+    "id": "1763042358574",
+    "userId": 7,
+    "registrationNumber": "876543234567",
+    "books": [
+      {
+        "id": 3,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "9780061120084",
+        "section": "classics",
+        "quantity": 2,
+        "status": "pending",
+        "adminNotes": ""
+      },
+      {
+        "id": 5,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "isbn": "9781853260509",
+        "section": "romance",
+        "quantity": 1,
+        "status": "pending",
+        "adminNotes": ""
+      },
+      {
+        "id": 1,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "section": "circulation",
+        "quantity": 2,
+        "status": "approved",
+        "adminNotes": "",
+        "processedAt": "2025-11-13T14:15:19.016Z"
+      },
+      {
+        "id": 18,
+        "title": "intellect",
+        "author": "Abdullahi H Mu'az",
+        "isbn": "235`",
+        "section": "circulation",
+        "quantity": 2,
+        "status": "rejected",
+        "adminNotes": "ARE YOU AN INTELECT",
+        "processedAt": "2025-11-13T13:59:36.570Z"
+      },
+      {
+        "id": 2,
+        "title": "Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "isbn": "9780064471190",
+        "section": "fantasy",
+        "quantity": 1,
+        "status": "approved",
+        "adminNotes": "",
+        "processedAt": "2025-11-13T14:08:30.410Z"
+      }
+    ],
+    "status": "partially_approved",
+    "checkoutDate": "2025-11-13T13:59:18.574Z",
+    "createdAt": "2025-11-13T13:59:18.574Z",
+    "updatedAt": "2025-11-13T14:15:19.017Z"
   }
 ]

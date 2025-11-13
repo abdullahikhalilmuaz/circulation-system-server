@@ -18,5 +18,25 @@
     "role": "admin",
     "password": "1234",
     "createdAt": "2025-04-15T10:40:05.867Z"
+  },
+  {
+    "id": 3,
+    "firstname": "Abdullahi",
+    "lastname": "H Mu'az",
+    "username": "admin",
+    "email": "muazdevy@gmail.com",
+    "role": "admin",
+    "password": "pass",
+    "createdAt": "2025-07-27T18:33:37.174Z"
+  },
+  {
+    "id": 4,
+    "firstname": "Abdullahi",
+    "lastname": "H Mu'az",
+    "username": "Maisaje",
+    "email": "pass@gmail.com",
+    "role": "admin",
+    "password": "pass",
+    "createdAt": "2025-10-15T19:12:08.075Z"
   }
 ]

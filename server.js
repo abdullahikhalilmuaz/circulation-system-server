@@ -20,6 +20,10 @@ const notificationRoute = require("./routes/notificationRoute");
 const loanRoute = require("./routes/loanRoutes");
 const router = require("./routes/dashboardRoutes");
 const newBookRequest = require("./routes/makeBookRequest");
+const recommendationRoutes = require("./routes/recommendationRoutes");
+const userRecommendationRoutes = require("./routes/userRecommendationRoutes");
+
+
 
 // Ensure directories exist
 const dataDirs = ["admin", "database", "carts"].map((dir) =>
@@ -42,6 +46,8 @@ const initFile = (filePath, initialData = "[]") => {
 initFile(path.join(__dirname, "admin/adminBooks.json"));
 initFile(path.join(__dirname, "database/requests.json"));
 initFile(path.join(__dirname, "carts/carts.json"));
+initFile(path.join(__dirname, "database/recommendations.json"));
+initFile(path.join(__dirname, "database/userRecommendations.json"));
 
 // MIDDLEWARES
 app.use(
@@ -69,6 +75,11 @@ app.use("/api/notifications", notificationRoute);
 app.use("/api", loanRoute);
 app.use("/api/dashboard", router);
 app.use("/api/newBookRequest", newBookRequest);
+app.use("/api/recommendations", recommendationRoutes);
+app.use("/api/user-recommendations", userRecommendationRoutes);
+
+
+
 
 // GET ALL USER FOR DISPLAY ROUTE
 app.get("/api/allusers", (req, res) => {

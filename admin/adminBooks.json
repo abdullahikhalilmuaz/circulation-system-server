@@ -192,6 +192,65 @@
     "section": "reference",
     "description": "Lorem Ipsum Dolor",
     "createdAt": "2025-05-11T16:53:13.392Z",
-    "updatedAt": "2025-05-11T16:53:13.392Z"
+    "updatedAt": "2025-05-11T16:53:13.392Z",
+    "ratings": [
+      {
+        "userId": 4,
+        "stars": 3,
+        "comment": "",
+        "ratedAt": "2025-11-12T15:53:42.124Z"
+      }
+    ],
+    "averageRating": 3,
+    "totalRatings": 1
+  },
+  {
+    "id": 16,
+    "title": "name of the book",
+    "author": "abdullahi",
+    "isbn": "897578",
+    "issn": "e22311",
+    "dateAdded": "2025-06-14",
+    "quantity": 10,
+    "section": "reserve",
+    "description": "the legend of tarzan",
+    "createdAt": "2025-06-14T20:48:54.177Z",
+    "updatedAt": "2025-06-14T20:48:54.177Z"
+  },
+  {
+    "id": 17,
+    "title": "new book",
+    "author": "undefined",
+    "isbn": "7980",
+    "issn": "87t87987",
+    "dateAdded": "2025-07-26",
+    "quantity": 10,
+    "section": "reference",
+    "description": "uyvboihobubijpi",
+    "createdAt": "2025-07-27T18:34:31.731Z",
+    "updatedAt": "2025-07-27T18:34:31.731Z"
+  },
+  {
+    "id": 18,
+    "title": "intellect",
+    "author": "Abdullahi H Mu'az",
+    "isbn": "235`",
+    "issn": "5789",
+    "dateAdded": "2025-11-15",
+    "quantity": 23,
+    "section": "circulation",
+    "description": "sss",
+    "createdAt": "2025-11-12T14:48:31.298Z",
+    "updatedAt": "2025-11-12T14:48:31.298Z",
+    "ratings": [
+      {
+        "userId": 4,
+        "stars": 4,
+        "comment": "",
+        "ratedAt": "2025-11-12T15:09:32.975Z"
+      }
+    ],
+    "averageRating": 4,
+    "totalRatings": 1
   }
 ]

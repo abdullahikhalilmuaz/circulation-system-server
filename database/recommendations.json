@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "description": "A classic novel of the Jazz Age",
+    "quantity": 5,
+    "pages": 218,
+    "year": 1925,
+    "addedDate": "2024-01-15T10:30:00.000Z",
+    "checkoutCount": 12,
+    "ratings": [
+      {
+        "userId": "3",
+        "stars": 5,
+        "comment": "Amazing classic!",
+        "ratedAt": "2024-03-20T14:30:00.000Z"
+      },
+      {
+        "userId": "4",
+        "stars": 4,
+        "comment": "Great writing style",
+        "ratedAt": "2024-03-18T09:15:00.000Z"
+      }
+    ],
+    "averageRating": 4.5,
+    "totalRatings": 2
+  },
+  {
+    "id": "1762960099073",
+    "bookId": 18,
+    "reason": "it is a great way of 10xing your intellect",
+    "isRecommended": true,
+    "addedBy": "admin",
+    "addedAt": "2025-11-12T15:08:19.073Z"
+  },
+  {
+    "id": "1763044058373",
+    "bookId": 1,
+    "reason": "something you must open first",
+    "isRecommended": true,
+    "addedBy": "admin",
+    "addedAt": "2025-11-13T14:27:38.373Z"
+  }
+]

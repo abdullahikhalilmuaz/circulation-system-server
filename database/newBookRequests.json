@@ -53,5 +53,33 @@
     "createdAt": "2025-04-15T07:36:15.450Z",
     "status": "pending",
     "type": "new-book"
+  },
+  {
+    "_id": "1749934339637",
+    "userId": 2,
+    "username": "Jinwoo sung",
+    "bookTitle": "Cracking the Coding Interview",
+    "author": "Sakamoto Days",
+    "isbn": "78786",
+    "reason": "For interview",
+    "urgency": "normal",
+    "createdAt": "2025-06-14T20:52:19.637Z",
+    "status": "rejected",
+    "type": "new-book",
+    "updatedAt": "2025-06-14T20:53:10.060Z"
+  },
+  {
+    "_id": "1753641177805",
+    "userId": 4,
+    "username": "Abdullahi H Mu'az",
+    "bookTitle": "Cracking the Coding Interview",
+    "author": "Sakamoto Days",
+    "isbn": "98765",
+    "reason": "oidsjfiojdoia",
+    "urgency": "high",
+    "createdAt": "2025-07-27T18:32:57.805Z",
+    "status": "rejected",
+    "type": "new-book",
+    "updatedAt": "2025-07-27T18:35:58.717Z"
   }
 ]

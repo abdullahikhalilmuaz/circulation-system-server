@@ -27,5 +27,45 @@
     "role": "user",
     "password": "1751",
     "createdAt": "2025-04-15T07:32:52.948Z"
+  },
+  {
+    "id": 4,
+    "firstname": "Abdullahi",
+    "lastname": "H Mu'az",
+    "username": "Abdul",
+    "email": "muazdevy@gmail.com",
+    "role": "user",
+    "password": "pass",
+    "createdAt": "2025-07-27T18:30:56.051Z"
+  },
+  {
+    "id": 5,
+    "firstname": "Abdullahi",
+    "lastname": "Halilu",
+    "username": "Abdullahi H Mu'az",
+    "email": "email@gmail.com",
+    "role": "user",
+    "password": "passCode@1234",
+    "createdAt": "2025-09-23T17:58:30.444Z"
+  },
+  {
+    "id": 6,
+    "firstname": "Abdullahi",
+    "lastname": "H Mu'az",
+    "username": "Maisaje",
+    "email": "pass@gmail.com",
+    "role": "user",
+    "password": "passCode",
+    "createdAt": "2025-10-15T19:10:46.811Z"
+  },
+  {
+    "id": 7,
+    "firstname": "Abdullahi",
+    "lastname": "H Mu'az",
+    "username": "maisaje",
+    "email": "abdullahikhalilmuaz@gmail.com",
+    "role": "user",
+    "password": "pass",
+    "createdAt": "2025-11-12T16:20:41.273Z"
   }
 ]

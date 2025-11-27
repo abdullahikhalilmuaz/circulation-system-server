@@ -27,7 +27,6 @@ loanRoute.post("/loan", async (req, res) => {
       id,
       firstname,
       lastname,
-      username,
       registration_number,
       book_name,
       returning_date,
@@ -38,7 +37,6 @@ loanRoute.post("/loan", async (req, res) => {
       !id ||
       !firstname ||
       !lastname ||
-      !username ||
       !registration_number ||
       !book_name
     ) {
@@ -53,7 +51,6 @@ loanRoute.post("/loan", async (req, res) => {
       id,
       firstname,
       lastname,
-      username,
       registration_number,
       book_name,
       collected: false,

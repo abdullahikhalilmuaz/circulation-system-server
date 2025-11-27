@@ -67,5 +67,15 @@
     "role": "user",
     "password": "pass",
     "createdAt": "2025-11-12T16:20:41.273Z"
+  },
+  {
+    "id": 8,
+    "firstname": "usman",
+    "lastname": "usman",
+    "username": "usman",
+    "email": "usman@gmail.com",
+    "role": "user",
+    "password": "usman",
+    "createdAt": "2025-11-27T13:27:03.780Z"
   }
 ]
